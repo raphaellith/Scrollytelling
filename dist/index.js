@@ -1,4 +1,7 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-require("waypoints");
+const waypoint = new Waypoint({
+    element: document.getElementById('fig'),
+    handler: function () {
+    }
+});
+export {};
 //# sourceMappingURL=index.js.map

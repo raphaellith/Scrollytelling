@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scrollytelling test</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="dist/index.js" defer></script>
+    <script src="noframework.waypoints.js" defer></script>
+    <script src="dist/index.js" type="module" defer></script>
 </head>
 
 <body>
@@ -22,21 +23,21 @@
         </div>
 
         <div id="step-area">
-            <div class="step" id="0">
+            <div class="step" stepId="0">
                 <b>This is a step.</b><br>
             </div>
 
-            <div class="step" id="1">
+            <div class="step" stepId="1">
                 <b>This is another step.</b><br><br>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquam eu orci euismod aliquet. Nulla ut libero sit amet velit.
             </div>
 
-            <div class="step" id="2">
+            <div class="step" stepId="2">
                 <b>This is the penultimate step.</b><br><br>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquam eu orci euismod aliquet. Nulla ut libero sit amet velit.
             </div>
 
-            <div class="step" id="3">
+            <div class="step" stepId="3">
                 <b>This is the final step.</b><br><br>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquam eu orci euismod aliquet. Nulla ut libero sit amet velit.
             </div>

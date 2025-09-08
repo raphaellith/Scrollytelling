@@ -13,7 +13,6 @@
     "typescript": "^5.9.2"
   },
   "dependencies": {
-    "@types/waypoints": "^4.0.7",
-    "waypoints": "^4.0.1"
+    "@types/waypoints": "^4.0.7"
   }
 }

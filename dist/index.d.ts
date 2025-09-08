@@ -1,2 +1,2 @@
-import 'waypoints';
+export {};
 //# sourceMappingURL=index.d.ts.map
