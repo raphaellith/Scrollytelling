@@ -51,6 +51,8 @@ body {
   padding: 15px;
   aspect-ratio: 1.6;
 
+  /* transform: translateY(-50%); */
+
   background-color: burlywood;
 }
 
@@ -60,7 +62,7 @@ body {
 
 #fig {
   position: sticky;
-  top: 200px;
+  top: 50%;
 
   margin: auto;
   
@@ -68,6 +70,8 @@ body {
   aspect-ratio: 1.6;
 
   padding: 5px;
+
+  /* transform: translateY(-50%); */
   
   background-color: royalblue;
   color: white;
