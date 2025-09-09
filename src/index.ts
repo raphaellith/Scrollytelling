@@ -2,8 +2,9 @@
 const steps = Array.from(document.querySelectorAll(".step")) as HTMLElement[];
 const graphic: HTMLElement = document.getElementById("graphic")!;
 
-// The sticky offset will be read from CSS
-const stickyOffset: string = graphic.style.top;
+// Set the sticky offset in CSS
+const stickyOffset: string = "50%";
+graphic.style.top = stickyOffset;
 
 // Create a Waypoint object that updates the graphic when scrolling past each step
 steps.forEach(step => {
